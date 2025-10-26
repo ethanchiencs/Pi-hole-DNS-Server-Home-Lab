@@ -97,6 +97,7 @@ curl -sSL https://install.pi-hole.net | bash
 - Web Server: Lighttpd (installed automatically)
 - Query Logging: Enabled
 - Privacy Mode: Show everything (for learning purposes)
+<img width="1035" height="872" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/7ffc71f2-b7b1-4806-acc5-1b2864dae408" />
 
 ---
 
@@ -119,6 +120,7 @@ curl -sSL https://install.pi-hole.net | bash
 - Configured secure admin password
 - Enabled query logging for monitoring
 - Dashboard shows real-time statistics
+<img width="1924" height="1030" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/b53d11a6-10d0-46b5-9edc-1c6749ffed1b" />
 
 ---
 
@@ -130,6 +132,7 @@ curl -sSL https://install.pi-hole.net | bash
 ```cmd
 nslookup google.com [PI-HOLE-IP]
 ```
+<img width="979" height="512" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/0c60c3e2-8a36-4223-8891-1c6fe2c03867" />
 
 **Verified:**
 - Successful DNS query resolution
@@ -143,12 +146,14 @@ nslookup google.com [PI-HOLE-IP]
 2. Browsed ad-heavy websites (news sites, blogs)
 3. Monitored Pi-hole query logs for blocked domains
 4. Verified ads were blocked at DNS level
+<img width="1121" height="607" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/73135092-0904-47a5-a600-141e935d9e5f" />
 
 **Results:**
-- Successfully blocked advertising domains
+- Successfully blocked advertising domains found on "cnn.com"
 - Reduced page load times (fewer resources loaded)
 - Query logs showed clear distinction between allowed and blocked domains
 - Average block rate: 15-30% of queries on typical websites
+<img width="959" height="1037" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/0e6ac337-d0ea-4733-97b5-4f295f4d4118" />
 
 ### Query Log Analysis
 

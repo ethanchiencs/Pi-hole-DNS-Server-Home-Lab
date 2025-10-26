@@ -116,7 +116,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 ### Web Interface Access
 
-**Admin Panel:** `http://[PI-HOLE-IP]/admin`
+**Admin Panel:** `http://172.18.226.154/admin`
 - Configured secure admin password
 - Enabled query logging for monitoring
 - Dashboard shows real-time statistics
@@ -130,7 +130,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 **Command-line testing from Windows host:**
 ```cmd
-nslookup google.com [PI-HOLE-IP]
+nslookup google.com 172.18.226.154
 ```
 <img width="979" height="512" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/0c60c3e2-8a36-4223-8891-1c6fe2c03867" />
 

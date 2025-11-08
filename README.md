@@ -244,7 +244,6 @@ sudo systemctl restart lighttpd
 
 **DNS Record Types:**
 - A records (IPv4 addresses)
-- AAAA records (IPv6 addresses)
 - CNAME records (aliases)
 - PTR records (reverse DNS)
 
